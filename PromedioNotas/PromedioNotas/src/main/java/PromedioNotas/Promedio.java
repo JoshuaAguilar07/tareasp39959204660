@@ -27,7 +27,7 @@ public class Promedio {
         float total=0;
         for(i=0;i<20;++i)
         {
-            System.out.print("ingrese calificacion del alumno "+i+": ");
+            System.out.print("ingrese calificacion del alumno "+i+": \n\n");
             prome[i]=teclado.nextInt();
            total=total+prome[i];
         }
